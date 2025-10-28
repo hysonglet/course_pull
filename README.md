@@ -48,3 +48,12 @@ cargo r -- -c "bzb_jsxsd=8309BB66ABFDFE45F7C712EA35CB22CB; _gscu_641620532=56486
 
 ## 注意事项
 请设置正确的环境变量，否则无法连接到数据库
+
+## 附录
+获取 Cookies 的方法
+1. 打开浏览器，登录邵工强志系统
+2. 打开开发者工具，选择 Network
+3. 刷新页面，找到登录请求
+4. 复制请求头中的 Cookie 字段
+
+<img src="doc/cookie.png" width="600px">
